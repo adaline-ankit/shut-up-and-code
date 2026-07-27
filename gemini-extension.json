@@ -1,0 +1,6 @@
+{
+  "name": "shut-up-and-code",
+  "version": "0.1.0",
+  "description": "Precise, low-noise code from Gemini CLI: one-line comments, why not what, no narration, no unrequested abstractions.",
+  "contextFileName": "GEMINI.md"
+}

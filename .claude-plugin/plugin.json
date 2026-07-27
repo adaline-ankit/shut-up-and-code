@@ -1,0 +1,23 @@
+{
+  "name": "shut-up-and-code",
+  "version": "0.1.0",
+  "description": "Precise, low-noise code from Claude Code: one-line comments, why not what, no step narration or changelog comments, no unrequested abstractions, reuse before you write. Ships slopcheck plus an opt-in PostToolUse hook.",
+  "author": {
+    "name": "Ankit",
+    "url": "https://github.com/adaline-ankit"
+  },
+  "homepage": "https://github.com/adaline-ankit/shut-up-and-code",
+  "repository": "https://github.com/adaline-ankit/shut-up-and-code",
+  "license": "MIT",
+  "keywords": [
+    "code-quality",
+    "comments",
+    "anti-slop",
+    "code-review",
+    "style",
+    "restraint",
+    "linter",
+    "hooks",
+    "skills"
+  ]
+}

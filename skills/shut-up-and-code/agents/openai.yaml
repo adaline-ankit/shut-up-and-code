@@ -1,0 +1,7 @@
+interface:
+  display_name: "Shut Up And Code"
+  short_description: "Precise code, no comment spam"
+  default_prompt: "Use $shut-up-and-code: one-line comments explaining why, no narration, simplest correct solution."
+
+policy:
+  allow_implicit_invocation: true

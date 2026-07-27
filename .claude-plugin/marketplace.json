@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "shut-up-and-code",
+  "description": "Stop the comment spam and the over-engineering. Precise code, enforced by a checker rather than hoped for.",
+  "owner": {
+    "name": "Ankit"
+  },
+  "plugins": [
+    {
+      "name": "shut-up-and-code",
+      "description": "One-line comments, why not what, no narration, no unrequested abstractions. Includes slopcheck and an opt-in enforcement hook.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

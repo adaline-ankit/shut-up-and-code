@@ -1,0 +1,4 @@
+{
+  "name": "shut-up-and-code",
+  "description": "Write code that reads like a senior engineer wrote it. One-line comments, why not what, no narration, no invented abstractions, reuse before you write \u2014 with a checker and an optional hook, because instructions alone don't hold."
+}

@@ -1,0 +1,37 @@
+{
+  "name": "shut-up-and-code",
+  "version": "0.1.0",
+  "description": "Precise, low-noise code from Codex: one-line comments, why not what, no narration, no unrequested abstractions, reuse before you write.",
+  "author": {
+    "name": "Ankit",
+    "url": "https://github.com/adaline-ankit"
+  },
+  "homepage": "https://github.com/adaline-ankit/shut-up-and-code",
+  "repository": "https://github.com/adaline-ankit/shut-up-and-code",
+  "license": "MIT",
+  "keywords": [
+    "code-quality",
+    "comments",
+    "anti-slop",
+    "style",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shut Up And Code",
+    "shortDescription": "Precise code, no comment spam",
+    "longDescription": "Comments become one line and explain why, not what. No step narration, no changelog comments, no section dividers, no commented-out code. Beyond comments: simplest correct solution at the size of the request, no abstraction before three call sites, search before adding a constant, no swallowed errors, and verify external facts instead of guessing. Ships a dependency-free checker you can wire as a hook.",
+    "developerName": "Ankit",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/adaline-ankit/shut-up-and-code",
+    "defaultPrompt": [
+      "Use shut-up-and-code for this implementation.",
+      "Clean the slop out of this diff.",
+      "Review these comments \u2014 cut anything that restates the code."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
