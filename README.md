@@ -2,9 +2,13 @@
 
 # shut-up-and-code
 
-**Your coding agent writes decent code and then explains it to you like you've never seen a `for` loop.**
+**Your coding agent writes decent code, then explains `i++` to you.**
 
 *This is the skill that makes it stop.*
+
+```bash
+claude plugin marketplace add adaline-ankit/shut-up-and-code
+```
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-0F766E)](#install)
@@ -60,13 +64,15 @@ Twenty-eight lines became three. Nothing was lost — every deleted comment rest
 
 Nobody asked for any of it. It arrived anyway.
 
-## Why a skill, and not just a CLAUDE.md rule
+## It's not you. Telling it to stop doesn't work.
 
-Because that doesn't work, and it's [tracked as a bug](https://github.com/anthropics/claude-code/issues/65961):
+If you've already put a rule in `CLAUDE.md` and watched it get ignored — that's a [known bug](https://github.com/anthropics/claude-code/issues/65961), not your prompt:
 
 > A clear, mandatory rule in `CLAUDE.md` does not reliably suppress it. Reinforcing the rule via the memory system does not stop it either. […] Users shouldn't have to stack a CLAUDE.md rule + memory entries + enforcement hooks just to get clean code.
 
-That stack — rules, plus a checker, plus a hook that closes the loop — is what this repo is. Packaged once, so you don't have to build it.
+**So the fix isn't another rule. It's a hook that checks every file before you see it.**
+
+That's the whole idea here: rules *plus* a checker *plus* the hook that closes the loop. The stack the bug report says you shouldn't have to build yourself — built once, so you don't.
 
 ## Install
 
@@ -76,7 +82,7 @@ claude plugin marketplace add adaline-ankit/shut-up-and-code
 
 Then `/shut-up-and-code`. It stays on for the session; "stop suac" turns it off.
 
-Want the enforcement backstop too (recommended):
+Add the enforcement backstop — this is the part that makes it hold:
 
 ```bash
 sh hooks/enable.sh
